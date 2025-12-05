@@ -1,0 +1,981 @@
+# Pizza Ordering Plugin - Danish Translation
+# Copyright (C) 2024 Sascha Marc Rahn
+# This file is distributed under the same license as the Pizza Ordering plugin.
+# Sascha Marc Rahn, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pizza Ordering 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-05 18:00+0000\n"
+"PO-Revision-Date: 2024-12-05 18:00+0000\n"
+"Last-Translator: Sascha Marc Rahn\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: pizza-ordering\n"
+
+# =============================================================================
+# GENERAL / COMMON
+# =============================================================================
+
+msgid "Pizza Ordering"
+msgstr "Pizza Bestilling"
+
+msgid "Invalid product."
+msgstr "Ugyldigt produkt."
+
+msgid "Product not found."
+msgstr "Produkt ikke fundet."
+
+msgid "Please specify a product ID."
+msgstr "Angiv venligst et produkt ID."
+
+msgid "Loading..."
+msgstr "Indlæser..."
+
+msgid "Error loading data."
+msgstr "Fejl ved indlæsning af data."
+
+msgid "Something went wrong."
+msgstr "Noget gik galt."
+
+msgid "Please try again."
+msgstr "Prøv venligst igen."
+
+# =============================================================================
+# PIZZA BUILDER - SIZES
+# =============================================================================
+
+msgid "Choose Size"
+msgstr "Vælg størrelse"
+
+msgid "Size"
+msgstr "Størrelse"
+
+msgid "Small"
+msgstr "Lille"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Large"
+msgstr "Stor"
+
+msgid "Family"
+msgstr "Familie"
+
+msgid "Popular"
+msgstr "Populær"
+
+msgid "slices"
+msgstr "stykker"
+
+# =============================================================================
+# PIZZA BUILDER - BASE
+# =============================================================================
+
+msgid "Choose Base"
+msgstr "Vælg bund"
+
+msgid "Base"
+msgstr "Bund"
+
+msgid "Classic"
+msgstr "Klassisk"
+
+msgid "Thin & Crispy"
+msgstr "Tynd & Sprød"
+
+msgid "Thick & Soft"
+msgstr "Tyk & Blød"
+
+msgid "Gluten Free"
+msgstr "Glutenfri"
+
+msgid "Whole Grain"
+msgstr "Fuldkorn"
+
+# =============================================================================
+# PIZZA BUILDER - SAUCE
+# =============================================================================
+
+msgid "Choose Sauce"
+msgstr "Vælg sauce"
+
+msgid "Sauce"
+msgstr "Sauce"
+
+msgid "Tomato"
+msgstr "Tomat"
+
+msgid "Garlic"
+msgstr "Hvidløg"
+
+msgid "BBQ"
+msgstr "BBQ"
+
+msgid "Pesto"
+msgstr "Pesto"
+
+msgid "Creme Fraiche"
+msgstr "Creme Fraiche"
+
+msgid "White Sauce"
+msgstr "Hvid sauce"
+
+# =============================================================================
+# PIZZA BUILDER - TOPPINGS (NEW SYSTEM)
+# =============================================================================
+
+msgid "Customize Toppings"
+msgstr "Tilpas toppings"
+
+msgid "Toppings"
+msgstr "Toppings"
+
+msgid "Included on this pizza"
+msgstr "Inkluderet på denne pizza"
+
+msgid "Toggle off if you don't want them"
+msgstr "Slå fra hvis du ikke ønsker dem"
+
+msgid "Included"
+msgstr "Inkluderet"
+
+msgid "Without"
+msgstr "Uden"
+
+msgid "WITHOUT"
+msgstr "UDEN"
+
+msgid "Removed"
+msgstr "Fjernet"
+
+msgid "Add extra toppings"
+msgstr "Tilføj ekstra toppings"
+
+msgid "Costs extra per topping"
+msgstr "Koster ekstra per topping"
+
+msgid "Added"
+msgstr "Tilføjet"
+
+msgid "Extra portion"
+msgstr "Ekstra portion"
+
+msgid "Extra"
+msgstr "Ekstra"
+
+msgid "extra"
+msgstr "ekstra"
+
+msgid "Double"
+msgstr "Dobbelt"
+
+msgid "Already on pizza"
+msgstr "Allerede på pizzaen"
+
+msgid "toppings selected"
+msgstr "toppings valgt"
+
+msgid "free included"
+msgstr "gratis inkluderet"
+
+# =============================================================================
+# PIZZA BUILDER - TOPPING CATEGORIES
+# =============================================================================
+
+msgid "All"
+msgstr "Alle"
+
+msgid "Meat"
+msgstr "Kød"
+
+msgid "Cheese"
+msgstr "Ost"
+
+msgid "Vegetables"
+msgstr "Grøntsager"
+
+msgid "Seafood"
+msgstr "Skaldyr"
+
+msgid "Other"
+msgstr "Andet"
+
+# =============================================================================
+# PIZZA BUILDER - COMMON TOPPINGS
+# =============================================================================
+
+msgid "Mozzarella"
+msgstr "Mozzarella"
+
+msgid "Pepperoni"
+msgstr "Pepperoni"
+
+msgid "Bacon"
+msgstr "Bacon"
+
+msgid "Ham"
+msgstr "Skinke"
+
+msgid "Chicken"
+msgstr "Kylling"
+
+msgid "Mushrooms"
+msgstr "Champignon"
+
+msgid "Onions"
+msgstr "Løg"
+
+msgid "Bell Pepper"
+msgstr "Peberfrugt"
+
+msgid "Olives"
+msgstr "Oliven"
+
+msgid "Jalapeños"
+msgstr "Jalapeños"
+
+msgid "Pineapple"
+msgstr "Ananas"
+
+msgid "Tomatoes"
+msgstr "Tomater"
+
+msgid "Basil"
+msgstr "Basilikum"
+
+msgid "Oregano"
+msgstr "Oregano"
+
+msgid "Parmesan"
+msgstr "Parmesan"
+
+msgid "Feta"
+msgstr "Feta"
+
+msgid "Gorgonzola"
+msgstr "Gorgonzola"
+
+msgid "Shrimp"
+msgstr "Rejer"
+
+msgid "Tuna"
+msgstr "Tun"
+
+msgid "Anchovies"
+msgstr "Ansjoser"
+
+msgid "Salami"
+msgstr "Salami"
+
+msgid "Minced Beef"
+msgstr "Oksekød"
+
+msgid "Kebab Meat"
+msgstr "Kebabkød"
+
+# =============================================================================
+# PIZZA BUILDER - SUMMARY
+# =============================================================================
+
+msgid "Your Order"
+msgstr "Din ordre"
+
+msgid "Order Summary"
+msgstr "Ordreoversigt"
+
+msgid "Base price"
+msgstr "Basispris"
+
+msgid "Quantity"
+msgstr "Antal"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Add to Cart"
+msgstr "Læg i kurv"
+
+msgid "Adding..."
+msgstr "Tilføjer..."
+
+msgid "Pizza added to cart!"
+msgstr "Pizza tilføjet til kurv!"
+
+msgid "View Cart"
+msgstr "Se kurv"
+
+msgid "Checkout"
+msgstr "Til kassen"
+
+msgid "Continue Shopping"
+msgstr "Fortsæt med at handle"
+
+msgid "Could not add pizza to cart."
+msgstr "Kunne ikke tilføje pizza til kurv."
+
+# =============================================================================
+# SPECIAL INSTRUCTIONS
+# =============================================================================
+
+msgid "Special Instructions"
+msgstr "Specielle instruktioner"
+
+msgid "Any special requests?"
+msgstr "Særlige ønsker?"
+
+msgid "Allergies, preferences, etc."
+msgstr "Allergier, præferencer, osv."
+
+msgid "Notes"
+msgstr "Bemærkninger"
+
+# =============================================================================
+# DELIVERY / PICKUP
+# =============================================================================
+
+msgid "Delivery"
+msgstr "Levering"
+
+msgid "Pickup"
+msgstr "Afhentning"
+
+msgid "Delivery Type"
+msgstr "Leveringstype"
+
+msgid "Choose delivery type"
+msgstr "Vælg leveringstype"
+
+msgid "Delivery Address"
+msgstr "Leveringsadresse"
+
+msgid "Postcode"
+msgstr "Postnummer"
+
+msgid "Check postcode"
+msgstr "Tjek postnummer"
+
+msgid "We deliver to your area!"
+msgstr "Vi leverer til dit område!"
+
+msgid "Sorry, we don't deliver to this area."
+msgstr "Beklager, vi leverer ikke til dette område."
+
+msgid "Delivery fee"
+msgstr "Leveringsgebyr"
+
+msgid "Free delivery"
+msgstr "Gratis levering"
+
+msgid "Minimum order for delivery"
+msgstr "Minimum ordre for levering"
+
+msgid "Estimated delivery time"
+msgstr "Forventet leveringstid"
+
+msgid "minutes"
+msgstr "minutter"
+
+# =============================================================================
+# TIME SELECTION
+# =============================================================================
+
+msgid "When do you want it?"
+msgstr "Hvornår vil du have det?"
+
+msgid "As soon as possible"
+msgstr "Så hurtigt som muligt"
+
+msgid "ASAP"
+msgstr "ASAP"
+
+msgid "Schedule for later"
+msgstr "Planlæg til senere"
+
+msgid "Select date"
+msgstr "Vælg dato"
+
+msgid "Select time"
+msgstr "Vælg tidspunkt"
+
+msgid "Scheduled"
+msgstr "Planlagt"
+
+msgid "Today"
+msgstr "I dag"
+
+msgid "Tomorrow"
+msgstr "I morgen"
+
+# =============================================================================
+# KITCHEN DASHBOARD
+# =============================================================================
+
+msgid "Kitchen Dashboard"
+msgstr "Køkken Dashboard"
+
+msgid "Pizza Kitchen"
+msgstr "Pizza Køkken"
+
+msgid "Orders"
+msgstr "Ordrer"
+
+msgid "New Orders"
+msgstr "Nye ordrer"
+
+msgid "In Preparation"
+msgstr "Under tilberedning"
+
+msgid "Ready"
+msgstr "Klar"
+
+msgid "Completed"
+msgstr "Afsluttet"
+
+msgid "Ordered:"
+msgstr "Bestilt:"
+
+msgid "Requested:"
+msgstr "Ønsket:"
+
+msgid "min ago"
+msgstr "min siden"
+
+msgid "View Order"
+msgstr "Se ordre"
+
+msgid "Print"
+msgstr "Print"
+
+msgid "Accept Order"
+msgstr "Accepter ordre"
+
+msgid "Start Preparing"
+msgstr "Start tilberedning"
+
+msgid "Mark Ready"
+msgstr "Marker som klar"
+
+msgid "Out for Delivery"
+msgstr "Sendt til levering"
+
+msgid "Ready for Pickup"
+msgstr "Klar til afhentning"
+
+msgid "Complete"
+msgstr "Afslut"
+
+msgid "No orders in this column."
+msgstr "Ingen ordrer i denne kolonne."
+
+msgid "Refresh"
+msgstr "Opdater"
+
+msgid "Auto-refresh every 30 seconds"
+msgstr "Auto-opdatering hver 30. sekund"
+
+# =============================================================================
+# ORDER STATUS
+# =============================================================================
+
+msgid "Order Status"
+msgstr "Ordrestatus"
+
+msgid "received"
+msgstr "modtaget"
+
+msgid "Received"
+msgstr "Modtaget"
+
+msgid "preparing"
+msgstr "tilberedes"
+
+msgid "Preparing"
+msgstr "Tilberedes"
+
+msgid "ready"
+msgstr "klar"
+
+msgid "Ready for pickup"
+msgstr "Klar til afhentning"
+
+msgid "delivered"
+msgstr "leveret"
+
+msgid "Delivered"
+msgstr "Leveret"
+
+msgid "completed"
+msgstr "afsluttet"
+
+msgid "Completed"
+msgstr "Afsluttet"
+
+# =============================================================================
+# ADMIN SETTINGS
+# =============================================================================
+
+msgid "Pizza Settings"
+msgstr "Pizza Indstillinger"
+
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+msgid "Delivery Settings"
+msgstr "Leveringsindstillinger"
+
+msgid "Opening Hours"
+msgstr "Åbningstider"
+
+msgid "Enable delivery"
+msgstr "Aktiver levering"
+
+msgid "Enable pickup"
+msgstr "Aktiver afhentning"
+
+msgid "Delivery zones"
+msgstr "Leveringszoner"
+
+msgid "Delivery fee by postcode"
+msgstr "Leveringsgebyr efter postnummer"
+
+msgid "Minimum order amount"
+msgstr "Minimum ordrebeløb"
+
+msgid "Default preparation time"
+msgstr "Standard tilberedningstid"
+
+msgid "Save Settings"
+msgstr "Gem indstillinger"
+
+msgid "Settings saved."
+msgstr "Indstillinger gemt."
+
+# =============================================================================
+# ADMIN - POST TYPES
+# =============================================================================
+
+msgid "Pizza Sizes"
+msgstr "Pizza størrelser"
+
+msgid "Pizza Size"
+msgstr "Pizza størrelse"
+
+msgid "Add New Size"
+msgstr "Tilføj ny størrelse"
+
+msgid "Edit Size"
+msgstr "Rediger størrelse"
+
+msgid "Pizza Bases"
+msgstr "Pizza bunde"
+
+msgid "Pizza Base"
+msgstr "Pizza bund"
+
+msgid "Add New Base"
+msgstr "Tilføj ny bund"
+
+msgid "Edit Base"
+msgstr "Rediger bund"
+
+msgid "Pizza Sauces"
+msgstr "Pizza saucer"
+
+msgid "Pizza Sauce"
+msgstr "Pizza sauce"
+
+msgid "Add New Sauce"
+msgstr "Tilføj ny sauce"
+
+msgid "Edit Sauce"
+msgstr "Rediger sauce"
+
+msgid "Pizza Toppings"
+msgstr "Pizza toppings"
+
+msgid "Pizza Topping"
+msgstr "Pizza topping"
+
+msgid "Add New Topping"
+msgstr "Tilføj ny topping"
+
+msgid "Edit Topping"
+msgstr "Rediger topping"
+
+# =============================================================================
+# ADMIN - META FIELDS
+# =============================================================================
+
+msgid "Base Price"
+msgstr "Basispris"
+
+msgid "Extra Price"
+msgstr "Ekstra pris"
+
+msgid "Price"
+msgstr "Pris"
+
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgid "Diameter"
+msgstr "Diameter"
+
+msgid "Number of slices"
+msgstr "Antal stykker"
+
+msgid "Sort order"
+msgstr "Sorteringsrækkefølge"
+
+msgid "Is default"
+msgstr "Er standard"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Is premium"
+msgstr "Er premium"
+
+msgid "Calories"
+msgstr "Kalorier"
+
+msgid "Allergens"
+msgstr "Allergener"
+
+# =============================================================================
+# PRODUCT TYPE
+# =============================================================================
+
+msgid "Pizza"
+msgstr "Pizza"
+
+msgid "Pizza Product"
+msgstr "Pizza Produkt"
+
+msgid "Pizza Options"
+msgstr "Pizza Valgmuligheder"
+
+msgid "Default toppings"
+msgstr "Standard toppings"
+
+msgid "Default base"
+msgstr "Standard bund"
+
+msgid "Default sauce"
+msgstr "Standard sauce"
+
+msgid "Free toppings included"
+msgstr "Gratis toppings inkluderet"
+
+# =============================================================================
+# SIDES / DRINKS
+# =============================================================================
+
+msgid "Sides"
+msgstr "Tilbehør"
+
+msgid "Side"
+msgstr "Tilbehør"
+
+msgid "Drinks"
+msgstr "Drikkevarer"
+
+msgid "Drink"
+msgstr "Drikkevare"
+
+msgid "Desserts"
+msgstr "Desserter"
+
+msgid "Dessert"
+msgstr "Dessert"
+
+msgid "Dips"
+msgstr "Dips"
+
+msgid "Dip"
+msgstr "Dip"
+
+msgid "Salads"
+msgstr "Salater"
+
+msgid "Salad"
+msgstr "Salat"
+
+msgid "Add to order"
+msgstr "Tilføj til ordre"
+
+msgid "Added!"
+msgstr "Tilføjet!"
+
+# =============================================================================
+# COMBOS / DEALS
+# =============================================================================
+
+msgid "Combo Deals"
+msgstr "Kombi-tilbud"
+
+msgid "Combo"
+msgstr "Kombi"
+
+msgid "Save"
+msgstr "Spar"
+
+msgid "Includes"
+msgstr "Inkluderer"
+
+msgid "pizzas"
+msgstr "pizzaer"
+
+msgid "sides"
+msgstr "tilbehør"
+
+msgid "drinks"
+msgstr "drikkevarer"
+
+msgid "Regular price"
+msgstr "Normal pris"
+
+msgid "Sale price"
+msgstr "Tilbudspris"
+
+msgid "You save"
+msgstr "Du sparer"
+
+# =============================================================================
+# CART & CHECKOUT
+# =============================================================================
+
+msgid "Cart"
+msgstr "Kurv"
+
+msgid "Your cart is empty."
+msgstr "Din kurv er tom."
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "Tax"
+msgstr "Moms"
+
+msgid "Order Total"
+msgstr "Ordre total"
+
+msgid "Proceed to Checkout"
+msgstr "Fortsæt til kassen"
+
+msgid "Apply Coupon"
+msgstr "Anvend kupon"
+
+msgid "Remove"
+msgstr "Fjern"
+
+msgid "Update Cart"
+msgstr "Opdater kurv"
+
+# =============================================================================
+# UPSELLING
+# =============================================================================
+
+msgid "Complete your meal"
+msgstr "Gør dit måltid komplet"
+
+msgid "Customers also ordered"
+msgstr "Kunder bestilte også"
+
+msgid "Popular add-ons"
+msgstr "Populære tilføjelser"
+
+msgid "Add for"
+msgstr "Tilføj for"
+
+msgid "Quick add"
+msgstr "Hurtig tilføjelse"
+
+# =============================================================================
+# ALLERGENS
+# =============================================================================
+
+msgid "Gluten"
+msgstr "Gluten"
+
+msgid "Lactose"
+msgstr "Laktose"
+
+msgid "Dairy"
+msgstr "Mælk"
+
+msgid "Eggs"
+msgstr "Æg"
+
+msgid "Nuts"
+msgstr "Nødder"
+
+msgid "Peanuts"
+msgstr "Jordnødder"
+
+msgid "Soy"
+msgstr "Soja"
+
+msgid "Fish"
+msgstr "Fisk"
+
+msgid "Shellfish"
+msgstr "Skaldyr"
+
+msgid "Sesame"
+msgstr "Sesam"
+
+msgid "Celery"
+msgstr "Selleri"
+
+msgid "Mustard"
+msgstr "Sennep"
+
+msgid "Sulphites"
+msgstr "Sulfitter"
+
+# =============================================================================
+# ERRORS & VALIDATION
+# =============================================================================
+
+msgid "Please select a size."
+msgstr "Vælg venligst en størrelse."
+
+msgid "Please select a base."
+msgstr "Vælg venligst en bund."
+
+msgid "Please select a sauce."
+msgstr "Vælg venligst en sauce."
+
+msgid "Please enter a valid postcode."
+msgstr "Indtast venligst et gyldigt postnummer."
+
+msgid "Please select a delivery time."
+msgstr "Vælg venligst et leveringstidspunkt."
+
+msgid "This field is required."
+msgstr "Dette felt er påkrævet."
+
+msgid "Invalid request."
+msgstr "Ugyldig anmodning."
+
+msgid "Session expired. Please refresh."
+msgstr "Session udløbet. Opdater venligst siden."
+
+# =============================================================================
+# PRINT
+# =============================================================================
+
+msgid "Order #"
+msgstr "Ordre #"
+
+msgid "Print Order"
+msgstr "Print ordre"
+
+msgid "Customer"
+msgstr "Kunde"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Items"
+msgstr "Varer"
+
+msgid "Thank you for your order!"
+msgstr "Tak for din ordre!"
+
+# =============================================================================
+# MISC
+# =============================================================================
+
+msgid "From"
+msgstr "Fra"
+
+msgid "kr"
+msgstr "kr"
+
+msgid "DKK"
+msgstr "DKK"
+
+msgid "per"
+msgstr "per"
+
+msgid "each"
+msgstr "stk"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nej"
+
+msgid "On"
+msgstr "Til"
+
+msgid "Off"
+msgstr "Fra"
+
+msgid "Enable"
+msgstr "Aktiver"
+
+msgid "Disable"
+msgstr "Deaktiver"
+
+msgid "Search"
+msgstr "Søg"
+
+msgid "Filter"
+msgstr "Filtrer"
+
+msgid "Sort"
+msgstr "Sorter"
+
+msgid "Close"
+msgstr "Luk"
+
+msgid "Cancel"
+msgstr "Annuller"
+
+msgid "Confirm"
+msgstr "Bekræft"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Back"
+msgstr "Tilbage"
+
+msgid "Next"
+msgstr "Næste"
+
+msgid "Previous"
+msgstr "Forrige"
+
+msgid "Loading"
+msgstr "Indlæser"
+
+msgid "Please wait..."
+msgstr "Vent venligst..."
+
+msgid "Success!"
+msgstr "Succes!"
+
+msgid "Error!"
+msgstr "Fejl!"
+
+msgid "Warning!"
+msgstr "Advarsel!"
+
+msgid "Info"
+msgstr "Info"

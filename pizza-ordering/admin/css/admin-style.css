@@ -1,0 +1,335 @@
+/**
+ * Pizza Ordering Admin Styles
+ *
+ * @package Pizza_Ordering
+ */
+
+/* Kitchen Dashboard */
+.pizza-kitchen-wrap {
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.pizza-kitchen-wrap h1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pizza-kitchen-time {
+    background: #2271b1;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.pizza-kitchen-controls {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.pizza-kitchen-controls label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+/* Kitchen Columns */
+.pizza-kitchen-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pizza-kitchen-column {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pizza-kitchen-column-header {
+    padding: 15px;
+    color: #fff;
+}
+
+.pizza-kitchen-column-header h2 {
+    margin: 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+}
+
+.pizza-order-count {
+    background: rgba(255,255,255,0.3);
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+.pizza-status-received {
+    background: #d63638;
+}
+
+.pizza-status-preparing {
+    background: #dba617;
+}
+
+.pizza-status-ready {
+    background: #00a32a;
+}
+
+.pizza-kitchen-orders {
+    padding: 15px;
+    min-height: 200px;
+    max-height: calc(100vh - 300px);
+    overflow-y: auto;
+}
+
+/* Order Cards */
+.pizza-order-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.pizza-order-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.pizza-order-urgent {
+    border-color: #d63638;
+    background: #fcf0f1;
+    animation: pulse-urgent 2s infinite;
+}
+
+@keyframes pulse-urgent {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(214, 54, 56, 0.4); }
+    50% { box-shadow: 0 0 0 10px rgba(214, 54, 56, 0); }
+}
+
+.pizza-order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.pizza-order-number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d2327;
+}
+
+.pizza-order-type {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pizza-type-delivery {
+    background: #e7f5ff;
+    color: #1971c2;
+}
+
+.pizza-type-pickup {
+    background: #fff3bf;
+    color: #e67700;
+}
+
+.pizza-order-time {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #50575e;
+}
+
+.pizza-time-ago {
+    color: #787c82;
+}
+
+.pizza-order-customer {
+    margin-bottom: 10px;
+    padding: 8px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.pizza-order-items {
+    margin-bottom: 10px;
+}
+
+.pizza-order-item {
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.pizza-item-name {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.pizza-item-details {
+    font-size: 12px;
+    color: #50575e;
+}
+
+.pizza-detail {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pizza-toppings,
+.pizza-extra-toppings {
+    margin-top: 5px;
+}
+
+.pizza-extra-toppings {
+    color: #d63638;
+}
+
+.pizza-instructions {
+    margin-top: 8px;
+    padding: 8px;
+    background: #fcf0f1;
+    border-radius: 4px;
+    color: #d63638;
+    font-weight: bold;
+}
+
+.pizza-order-notes {
+    padding: 8px;
+    background: #fff8e5;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.pizza-order-total {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.pizza-order-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.pizza-status-btn {
+    flex: 1;
+    min-width: 120px;
+}
+
+.pizza-btn-preparing {
+    background: #dba617 !important;
+    border-color: #c69500 !important;
+}
+
+.pizza-btn-ready {
+    background: #00a32a !important;
+    border-color: #008a20 !important;
+}
+
+.pizza-btn-delivery,
+.pizza-btn-complete {
+    background: #2271b1 !important;
+    border-color: #135e96 !important;
+}
+
+.pizza-btn-view,
+.pizza-btn-print {
+    font-size: 12px !important;
+    padding: 4px 8px !important;
+}
+
+/* Opening Hours Table */
+.pizza-opening-hours {
+    max-width: 600px;
+}
+
+.pizza-opening-hours input[type="time"] {
+    width: 120px;
+}
+
+/* Delivery Zones */
+.pizza-zones-container {
+    margin-top: 20px;
+}
+
+.pizza-zone-form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.pizza-zones-list table {
+    background: #fff;
+}
+
+/* Print Styles */
+@media print {
+    .pizza-kitchen-controls,
+    .pizza-order-actions,
+    #adminmenumain,
+    #wpadminbar,
+    .pizza-kitchen-wrap > h1 {
+        display: none !important;
+    }
+
+    .pizza-kitchen-columns {
+        display: block;
+    }
+
+    .pizza-kitchen-column {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+    }
+
+    .pizza-order-card {
+        page-break-inside: avoid;
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .pizza-kitchen-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .pizza-kitchen-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .pizza-zones-container {
+        flex-direction: column;
+    }
+
+    .pizza-zone-form {
+        flex: 1 1 100%;
+    }
+}
